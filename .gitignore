@@ -1,0 +1,14 @@
+# Gradle
+.gradle/
+build/
+
+# コンパイル済みファイル
+bin/
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+
+# Java
+*.class
