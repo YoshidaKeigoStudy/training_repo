@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class HomeController {
 
-    private static final String MEMBER_1 = "ここに名前を記入";
+    private static final String MEMBER_1 = "A";
     private static final String MEMBER_2 = "ここに名前を記入";
     private static final String MEMBER_3 = "ここに名前を記入";
 
