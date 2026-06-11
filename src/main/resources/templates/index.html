@@ -9,9 +9,9 @@
     <div class="container">
         <h1>新人一覧</h1>
         <ul>
-            <li>1人目：<span th:text="${member1}"></span></li>
-            <li>2人目：<span th:text="${member2}"></span></li>
-            <li>3人目：<span th:text="${member3}"></span></li>
+            <li><a th:href="@{/member1}">1人目：<span th:text="${member1}"></span></a></li>
+            <li><a th:href="@{/member2}">2人目：<span th:text="${member2}"></span></a></li>
+            <li><a th:href="@{/member3}">3人目：<span th:text="${member3}"></span></a></li>
         </ul>
     </div>
 </body>
