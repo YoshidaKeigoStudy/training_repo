@@ -9,7 +9,7 @@ public class HomeController {
 
     private static final String MEMBER_1 = "ここに名前を記入";
     private static final String MEMBER_2 = "ここに名前を記入";
-    private static final String MEMBER_3 = "ここに名前を記入";
+    private static final String MEMBER_3 = "C";
 
     @GetMapping("/")
     public String index(Model model) {
